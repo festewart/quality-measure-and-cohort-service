@@ -2,7 +2,7 @@ name: Publish package to GitHub Packages
 on:
   push:
     branches:
-      - githubactions_publish_test
+      - githubactions_publish_test_kwas
   release:
     types: [created]
 jobs:
