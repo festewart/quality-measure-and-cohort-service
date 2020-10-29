@@ -14,7 +14,7 @@ jobs:
         with:
           java-version: 1.8
       - name: Publish package
-        run: mvn -B -Drevision=githubactions-test-SNAPSHOT deploy
+        run: mvn -B -Drevision=githubactions-test-kwas-SNAPSHOT deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
