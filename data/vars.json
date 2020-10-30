@@ -1,0 +1,9 @@
+{
+  "teams": {
+    "engine": "Nebula",
+    "ui": "Galaxy"
+  },
+  "artifactory": {
+     "teamname": "wh-cohort-team"
+  }
+}
