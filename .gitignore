@@ -1,3 +1,6 @@
+# generated documentation site dir
+site/
+
 # Compiled class file
 *.class
 

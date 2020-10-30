@@ -1,6 +1,10 @@
 site_name: Quality measure and cohort service    
 
-theme: material
+theme:
+  name: material
+# Uncomment if you prefer a darker scheme
+#  palette:
+#    scheme: slate
 
 copyright: 'Copyright &copy; 2020 IBM Watson Health<br>'
 
@@ -12,6 +16,7 @@ edit_uri: https://github.com/festewart/quality-measure-and-cohort-service/tree/m
 #Page tree
 
 nav:
+  - Home: index.md
   - Installation: 
     - Instructions: installation/instructions.md
   - User Guide:

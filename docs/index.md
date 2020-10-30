@@ -7,5 +7,5 @@
 
 ---
 
-Brought to you by: {{teams.engine}} and {{teams.ui}}
+Brought to you by: {{vars.teams.engine}} and {{vars.teams.ui}}
 

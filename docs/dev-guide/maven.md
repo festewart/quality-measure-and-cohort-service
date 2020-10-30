@@ -1,7 +1,3 @@
----
-artifactory-team-name: wh-cohort-team
----
-
 Maven
 =====
 We currently use a set of internal IBM Artifactory Maven repositories to store any java artifacts we create.
@@ -46,9 +42,9 @@ __Note__: You can simply copy the three `<server>` elements and merge them into 
 Current Repositories
 --------------------
 We currently have the following Maven repositories...
-* `{{artifactory-team-name}}-snapshot-maven-local`: This is where our snapshot artifacts will be stored.
-* `{{artifactory-team-name}}-release-maven-local`: This is where our release artifacts will be stored.
-* `{{artifactory-team-name}}-maven-remote`: This is meant to be a proxy for artifacts outside our project.  This can be thought of as an alternative to "Maven Central".
-* `{{artifactory-team-name}}-snapshot-maven-virtual`: A union of the local snapshot and remote repositories.
-* `{{artifactory-team-name}}-release-maven-virtual`: A union of the local release and remote repositories.
-* `{{artifactory-team-name}}-all-maven-virtual`: A union of the snapshot and release virtual repositories.  This is the "catch all" respository.
+- {{ vars.artifactory.teamname }}-snapshot-maven-local: This is where our snapshot artifacts will be stored.
+- {{ vars.artifactory.teamname }}-release-maven-local: This is where our release artifacts will be stored.
+- {{ vars.artifactory.teamname }}-maven-remote: This is meant to be a proxy for artifacts outside our project.  This can be thought of as an alternative to "Maven Central".
+- {{ vars.artifactory.teamname }}-snapshot-maven-virtual: A union of the local snapshot and remote repositories.
+- {{ vars.artifactory.teamname }}-release-maven-virtual: A union of the local release and remote repositories.
+- {{ vars.artifactory.teamname }}-all-maven-virtual: A union of the snapshot and release virtual repositories.  This is the "catch all" respository.
