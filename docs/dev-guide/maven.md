@@ -1,7 +1,7 @@
 Maven
 =====
 We currently use a set of internal IBM Artifactory Maven repositories to store any java artifacts we create.
-For more information on Artifactory itself, see [Artifactory and TaaS](dev-guide/artifactory-and-taas.md).
+For more information on Artifactory itself, see [Artifactory and TaaS](artifactory-and-taas.md).
 
 Local Setup
 -----------

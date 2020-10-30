@@ -29,13 +29,6 @@ nav:
     - Spikes:
       - cql_engine audit: dev-guide/spikes/cql-engine-audit.md
 
-#  - UBI Images:
-#    - Overview: base_images.md
-#  - Docker files: docker.md
-#  - Helm charts: helm.md
-#  - Operators: operators.md
-#  - CI/CD: cicd.md
-
 extra_javascript:
   - js/links_in_new_tabs.js
 markdown_extensions:
