@@ -1,0 +1,40 @@
+site_name: Watson Health Documentation Template    
+site_description: Template for Watson Health documentation
+
+
+theme: material
+
+copyright: 'Copyright &copy; 2020 IBM Watson Health<br>'
+
+repo_name: 'Watson Health Documentaion Template'
+repo_url: https://github.ibm.com/whc-toolchain/documentation
+
+edit_uri: https://github.ibm.com/whc-toolchain/documentation/edit/master/docs/
+
+#Page tree
+
+#nav:
+#  - UBI Images:
+#    - Overview: base_images.md
+#  - Docker files: docker.md
+#  - Helm charts: helm.md
+#  - Operators: operators.md
+#  - CI/CD: cicd.md
+
+extra_javascript:
+  - js/links_in_new_tabs.js
+markdown_extensions:
+  - admonition:
+  - codehilite:
+  - extra:
+  - pymdownx.magiclink:
+  - sane_lists:
+  - smarty:
+  - toc:
+      permalink: True
+
+# Plugins
+plugins:
+    - search
+    - markdownextradata:
+        data: ./_data
