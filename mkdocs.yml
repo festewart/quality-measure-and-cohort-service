@@ -1,19 +1,29 @@
-site_name: Watson Health Documentation Template    
-site_description: Template for Watson Health documentation
-
+site_name: Quality measure and cohort service    
 
 theme: material
 
 copyright: 'Copyright &copy; 2020 IBM Watson Health<br>'
 
-repo_name: 'Watson Health Documentaion Template'
-repo_url: https://github.ibm.com/whc-toolchain/documentation
+repo_name: 'Quality measure and cohort service'
+repo_url: https://github.com/festewart/quality-measure-and-cohort-service
 
-edit_uri: https://github.ibm.com/whc-toolchain/documentation/edit/master/docs/
+edit_uri: https://github.com/festewart/quality-measure-and-cohort-service/tree/master/docs/
 
 #Page tree
 
-#nav:
+nav:
+  - Installation: 
+    - Instructions: installation/instructions.md
+  - User Guide:
+    - Getting Started: user-guide/getting-started.md
+  - Developer Guide:
+    - Getting Started: dev-guide/getting-started.md
+    - Open Source: dev-guide/open-source.md
+    - Artifactory and TaaS: dev-guide/artifactory-and-taas.md
+    - Maven: dev-guide/maven.md
+    - Spikes:
+      - cql_engine audit: dev-guide/spikes/cql-engine-audit.md
+
 #  - UBI Images:
 #    - Overview: base_images.md
 #  - Docker files: docker.md
@@ -37,4 +47,4 @@ markdown_extensions:
 plugins:
     - search
     - markdownextradata:
-        data: ./_data
+        data: ./docs/data
