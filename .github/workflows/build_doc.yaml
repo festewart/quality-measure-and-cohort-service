@@ -1,7 +1,10 @@
-name: learn-github-actions
-on: [push]
+name: Build and publish docs
+on:
+  push:
+    branches:
+      - master
 jobs:
-  check-bats-version:
+  build-docs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
